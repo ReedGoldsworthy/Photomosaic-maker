@@ -145,8 +145,8 @@ for y in range(0, img_height, TILE_HEIGHT):
         except Exception:
             continue
 
-        cv2.imshow(main_image, img)
-        cv2.waitKey(1)
+        # cv2.imshow(main_image, img)
+        # cv2.waitKey(1)
 
     
 
